@@ -1,0 +1,449 @@
+body{
+    margin: 0px;
+    font-family:sans-serif;
+    font-weight: 10px;
+    flex-wrap: wrap;
+}
+header{
+    background-color:rgb(46, 54, 64);
+    color: white;
+    height:40px;
+    align-content: center;
+}
+.second img{
+    height:400px;
+    text-align: end;
+    padding-right:80px;
+}
+.section1{
+    display: flex;
+    height:600px;
+    align-items: center;
+}
+.first{
+    padding-left: 150px;
+}
+.left{
+    margin-left:120px;
+}
+.right{
+    padding-left:900px;
+    word-spacing: 10px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height:80px;
+}
+.nav h1{
+    font-family: 'Open Sans', sans-serif;
+    color:rgb(89, 171, 110);
+    font-size:50px;
+    text-indent:120px;
+}
+.navspan1{
+    padding-left:300px;
+    word-spacing: 100px;
+}
+.navspan1 a:hover{
+    color: green;
+    
+}
+.nav a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    justify-content: space-evenly;
+    font-weight: 400;
+    font-size: 20px;
+}
+.navspan2{
+    margin-left:250px;
+    word-spacing: 10px;
+    font-size: 20px;
+}
+.hero-carousel{
+background:#efefef;
+}
+
+.hero-slide{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:80px 150px;
+}
+
+.hero-left{
+width:45%;
+}
+.hero-left h1{
+    color:rgb(89, 171, 110) ;
+}
+
+.hero-right{
+width:45%;
+}
+
+.hero-right img{
+width:100%;
+}
+.body{
+    text-align: center;
+}
+.body h1{
+    font-weight: 300(light);
+}
+.body p{
+    font-weight: 400;
+}
+.category-row{
+display:flex;
+justify-content:center;
+gap:60px;
+text-align:center;
+margin-top:40px;
+}
+
+.c1,.c2,.c3{
+width:300px;
+}
+
+.c1 img,.c2 img,.c3 img{
+width:100%;
+height:300px;
+border-radius:50%;
+object-fit:cover;
+}
+button{
+    background-color:rgb(89, 171, 110);
+    border-color:white;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+}
+.info{
+    text-align: center;
+}
+.card2{
+    background-color:rgb(240, 239, 239);
+    height:750px;
+}
+.center{
+    display: flex;
+    justify-content: space-evenly;
+    height:650px;
+    background-color:rgb(240, 239, 239) ;
+}
+.info{
+    padding-top:30px;
+}
+.i1{
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    border: solid white;
+    margin-left: 25px;
+}
+.i2{
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    border: solid white;
+}
+.i3{
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    border: solid white;
+    margin-right: 25px;
+}
+.i1 img{
+    height:300px;
+    width: 400px;
+    margin:solid black;
+}
+.i2 img{
+    height: 300px;
+    width: 400px;
+    margin:solid black;
+}
+.i3 img{
+    height: 300px;
+    width: 400px;
+    margin:solid black;
+}
+.star1{
+    display: flex;
+    justify-content: space-between;
+}
+.star2{
+    display: flex;
+    justify-content: space-between;
+}
+.stars2{
+    margin-left: 20px;
+}
+.star3{
+    display: flex;
+    justify-content: space-between;
+}
+.fmain{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(33, 41, 52);
+    color: white;
+}
+.f1 h1{
+    color:rgb(89, 171, 110);
+}
+.f2 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.f3 a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.f2 a:hover{
+    color: rgb(89, 171, 110);;
+}
+.f3 a:hover{
+    color: rgb(89, 171, 110);
+}
+.fmain hr{
+        width: 350px;
+}
+.footer{
+    background-color:rgb(33, 41, 52);
+}
+.round{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.mainapps{
+    height: 150px;
+    align-content: center;
+    align-items: center;
+}
+.apps{
+    border-radius: 50% white;
+    color: whitesmoke;
+    word-spacing: 10px;
+    padding-left:110px;
+    font-size:30px;
+}
+.apps i{
+    border: solid whitesmoke;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    border-width: 0.1px;
+    justify-items: center;
+    padding-top: 18px;
+    border-radius: 50%;
+}
+.mail input{
+    height: 30px;
+    margin-left:700px;
+    background-color: rgb(197, 196, 196);
+    color:black
+}
+.final{
+    background-color: rgba(27, 27, 27, 0.849);
+    color: white;
+    height: 60px;
+    align-content: center;
+    text-indent:110px;
+}
+.final a{
+    color: white;
+}
+.final a:hover{
+    color: rgb(89, 171, 110);
+}
+.brand{
+    filter: grayscale(100%) brightness(0.8);
+    opacity:0.5;
+}
+.brand:hover{
+    filter:none;
+    opacity:1;
+}
+/*==================================== SHOP.HTML =============================================*/
+.option{
+    width: 450px;
+    height:35px;
+    margin-left:200px;
+    background-color: white;
+}
+.anchor{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+.anchor a{
+    text-decoration: none;
+    color:black;
+    font-size:30px;
+    justify-content: space-evenly;
+    margin-left:30px;
+}
+.anchor a:hover{
+    color: rgb(89, 171, 110);
+}
+.anchor span{
+    display: flex;
+    margin-left:120px;
+}
+.op1{
+   width:300px;
+    height:35px;
+    background-color: white;
+    border-color: white;
+    font-size:25px;
+}
+.gen{
+    /* margin-left:120px; */
+    border-color: white;
+}
+.anchor h1{
+    margin-left:160px;
+}
+/* layout */
+.images{
+display:flex;
+}
+
+.main{
+width:250px;
+margin-left:120px;
+}
+
+/* grid */
+.shops{
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+gap:30px;
+margin-left:40px;
+}
+
+/* card */
+.shop1{
+background:white;
+box-shadow:0 5px 15px rgba(0,0,0,0.15);
+padding-bottom:15px;
+width:300px;
+/* height:500px; */
+}
+
+/* image */
+.img-box{
+position:relative;
+overflow:hidden;
+}
+
+.img-box img{
+width:100%;
+height:auto;
+}
+
+/* hover icons */
+.hover-icons{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+display:flex;
+flex-direction:column;
+gap:15px;
+opacity:0;
+transition:0.3s;
+}
+
+.hover-icons i{
+background:#59ab6e;
+color:white;
+width:45px;
+height:45px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:5px;
+cursor:pointer;
+}
+
+/* hover effect */
+.img-box:hover .hover-icons{
+opacity:1;
+}
+
+/* text */
+.pp{
+padding-left:20px;
+}
+
+.pp1{
+text-align:center;
+}
+/* =====================================contact============================================== */
+.below{
+    justify-items: center;
+    background-color:rgb(229, 233, 238) ;
+    height:250px;
+    align-content: center;
+}
+.map iframe{
+width:100%;
+height:250px;
+border:0;
+}
+.contact-section{
+padding:60px 120px;
+font-family:'Roboto', sans-serif;
+}
+
+.contact-row{
+display:flex;
+gap:30px;
+}
+
+.contact-col{
+flex:1;
+}
+
+.contact-section input,
+.contact-section textarea{
+width:100%;
+padding:12px;
+margin:10px 0 20px;
+border:1px solid #ddd;
+border-radius:5px;
+font-size:16px;
+}
+
+.contact-section textarea{
+height:220px;
+resize:none;
+}
+
+.contact-btn-wrap{
+display:flex;
+justify-content:flex-end;
+}
+
+.contact-btn{
+background:#59ab6e;
+color:white;
+border:none;
+padding:12px 28px;
+border-radius:5px;
+font-size:16px;
+cursor:pointer;
+height: 50px;
+}
+
+.contact-btn:hover{
+background:#4a9a5d;
+}
